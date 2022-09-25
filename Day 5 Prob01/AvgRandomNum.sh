@@ -1,3 +1,4 @@
+#! /bin/bash
 num1=$(( ( RANDOM % 90 )  + 10 ))
 num2=$(( ( RANDOM % 90 )  + 10 ))
 num3=$(( ( RANDOM % 90 )  + 10 ))
