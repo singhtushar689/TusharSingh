@@ -1,5 +1,5 @@
-dice=$((RANDOM%6 +1))
-        case $dice in
+number=$((RANDOM%9+1))
+        case $number in
         1)
         echo "1"
         ;;
@@ -18,5 +18,13 @@ dice=$((RANDOM%6 +1))
         6)
         echo "6"
         ;;
+        7)
+        echo "7"
+        ;;
+        8)
+        echo "8"
+        ;;
+        9)
+        echo "9"
+        ;;
         esac
-
